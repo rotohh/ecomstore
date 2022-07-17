@@ -1,0 +1,98 @@
+[
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Stringed Instruments",
+    "slug": "stringed-instruments",
+    "description": "This are musical instruments  that are played by stroking that line of wire.",
+    "is_active": true,
+    "meta_keywords": "stringed,music,instrument,played,linewire",
+    "meta_description": "musical stroking wire",
+    "created_at": "2018-03-21T12:19:01.729Z",
+    "updated_at": "2018-03-21T13:29:44.473Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 2,
+  "fields": {
+    "name": "Keying Instruments",
+    "slug": "keying-instruments",
+    "description": "Things that you beat up with your fingers",
+    "is_active": true,
+    "meta_keywords": "key,press",
+    "meta_description": "when you key in it produces sound",
+    "created_at": "2018-04-25T17:03:33.976Z",
+    "updated_at": "2018-04-25T17:03:33.976Z"
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "name": "Drumming Instruments",
+    "slug": "drumming-instruments",
+    "description": "beat the shit out of those instruments",
+    "is_active": true,
+    "meta_keywords": "drum,beat,ngoma",
+    "meta_description": "toot it and boot it",
+    "created_at": "2018-04-25T17:25:05.588Z",
+    "updated_at": "2018-04-25T17:25:05.588Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 1,
+  "fields": {
+    "name": "Acoustic Guitar",
+    "slug": "acoustic-guitar",
+    "brand": "rabs",
+    "sku": "6483037",
+    "price": "243.99",
+    "old_price": "299.99",
+    "image": "",
+    "thumbnail": "DEFAULT VALUE",
+    "image_caption": "DEFAULT VALUE",
+    "is_active": true,
+    "is_bestseller": false,
+    "is_featured": false,
+    "quantity": 8,
+    "description": "Just the best feel ever while stroking that thang",
+    "meta_keywords": "Best,feel,acoustic,guitar",
+    "meta_description": "best feel while stroking",
+    "created_at": "2018-03-21T13:21:27.064Z",
+    "updated_at": "2018-05-23T15:52:00.032Z",
+    "categories": [
+      1
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 2,
+  "fields": {
+    "name": "Violin Guitar",
+    "slug": "violin-guitar",
+    "brand": "violin",
+    "sku": "HSH76ED",
+    "price": "160.00",
+    "old_price": "0.00",
+    "image": "images/products/main/VIOLIN.jpg",
+    "thumbnail": "DEFAULT VALUE",
+    "image_caption": "DEFAULT VALUE",
+    "is_active": true,
+    "is_bestseller": false,
+    "is_featured": false,
+    "quantity": 13,
+    "description": "woahh just get the thing and see",
+    "meta_keywords": "Violin, guitar, stroker",
+    "meta_description": "violin for the soul",
+    "created_at": "2018-08-26T14:05:12.101Z",
+    "updated_at": "2018-08-26T14:05:12.102Z",
+    "categories": [
+      1
+    ]
+  }
+}
+]
